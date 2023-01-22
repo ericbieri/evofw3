@@ -4,7 +4,7 @@
 ** Abstract pin names and definitions for ATMega 328 family
 **
 */
-
+//
 #ifndef _CONFIG_H_
 #  error "Include config.h instead of this file"
 #endif
