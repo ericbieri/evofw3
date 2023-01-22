@@ -1,6 +1,6 @@
 /***********************************************************************
 **
-** Abstract pin names and definitions for Adafruit Feather Atmega 32u4
+** Abstract pin names and definitions for Adafruit Feather ATmega 32u4
 **
 ************************************************************************/
 
@@ -12,6 +12,17 @@
 #define _HW_ARDUINO_H_
 
 #include <avr/io.h>
+
+// Feather 32u4 specific settings
+//#define ARDUINO_ARCH_AVR
+//#define USB_VID 0x1b4f 
+//#define USB_PID 0x9204
+//#define USB_MANUFACTURER "ghoti57"
+//#define USB_PRODUCT "evofw3 atmega32u4"
+#define HWUART 
+#define CCSEL 6
+#define GDO0 INT3
+#define GDO2 INT2
 
 // SPI port defs
 #define SPI_PORT    PORTB

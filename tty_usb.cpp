@@ -154,7 +154,8 @@ void tty_debug(const char *str) { Serial.print(str); }
 
 void tty_init(void ) {
   Serial.begin(115200);
-  while( !Serial ){}
+  while( !Serial ) {}
+  Serial.println("tty init - done");
 }
 
 void tty_work(void) {
