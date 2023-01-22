@@ -1,10 +1,9 @@
-/**********************************************************
-** atm328_pins.h
+/***********************************************************************
 **
-** Abstract pin names and definitions for ATMega 328 family
+** Abstract pin names and definitions for Adafruit Feather Atmega 32u4
 **
-*/
-//
+************************************************************************/
+
 #ifndef _CONFIG_H_
 #  error "Include config.h instead of this file"
 #endif

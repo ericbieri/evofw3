@@ -11,7 +11,7 @@
 #include "atm328_pins.h"
 
 #elif defined ARDUINO_EVOFW3_FEATHER_ATMEGA32U4
-#include "atm32u4_pins.h"
+#include "feather_atm32u4_pins.h"
 #define HOST_RATE 0
 
 #else
